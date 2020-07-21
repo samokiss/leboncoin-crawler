@@ -1,14 +1,12 @@
 {
-    "name": "rfussien/leboncoin-crawler",
-    "type": "library",
-    "description": "Makes data extraction from leboncoin.fr easy",
-    "homepage": "https://github.com/rfussien/leboncoin-crawler",
-    "license": "MIT",
-    "authors": [{
-        "name": "Remi FUSSIEN",
-        "email": "remi.fussien@gmail.com"
-    }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/samokiss/leboncoin-crawler"
+        }
+    ],
     "require": {
+        "rfussien/leboncoin-crawler": "dev-master",
         "guzzlehttp/guzzle": "^6",
         "league/uri": "^4",
         "nesbot/carbon": "~1.22",
